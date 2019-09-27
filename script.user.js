@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Microsoft Teams Compact
 // @namespace    MSTeamsCompact
-// @version      0.3
+// @version      0.31
 // @updateURL    https://raw.githubusercontent.com/kulack/MSTeamsCompact/master/script.user.js
 // @description  Making Microsoft Teams UI just a little more compact
 // @author       fred@kulack.com
@@ -194,5 +194,39 @@ message-list.chat-style .self .media-left ~ .ts-message-thread-body {
   font-size: 1.3rem !important;
   line-height: 1.1 !important;
   font-weight: 600 !important;
+}
+/////////////////////////////////////////////////////////////
+// Completely strip avatar icon columns in messages and chat
+div.media-left {
+    display: none !important;
+}
+.message-list-common:not(.chat-style) thread .ts-message .conversation-start .media-left {
+    display: none !important;
+}
+thread .ts-message .conversation-reply .media-left {
+    display: none !important;
+}
+.message-list-common:not(.chat-style) thread .ts-message .conversation-reply .media-left {
+    display: none !important;
+}
+span.status-icon {
+    display: none !important;
+}
+//////////////////////////////////////////////////////////
+// Leave only the smallest indent for threads and replies
+div.media.thread-body {
+    margin-left: 1rem !important;
+}
+div.media.message-body {
+    margin-left: 1rem !important;
+}
+div.thread-action-reply-message {
+    padding-left: 1rem !important;
+}
+// Note, I discovered this by accident, something is going on here that I don't
+// quite understand. If I put div.media.thread-body twice here, the style is actually
+// applied, otherwise, its not.
+div.media.thread-body {
+    margin-left: 1rem !important;
 }
 ` );
