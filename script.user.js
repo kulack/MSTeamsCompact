@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Microsoft Teams Compact
 // @namespace    MSTeamsCompact
-// @version      0.31
+// @version      0.32
 // @updateURL    https://raw.githubusercontent.com/kulack/MSTeamsCompact/master/script.user.js
 // @description  Making Microsoft Teams UI just a little more compact
 // @author       fred@kulack.com
