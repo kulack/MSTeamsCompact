@@ -160,7 +160,7 @@ message-list.chat-style .self .media-left ~ .ts-message-thread-body {
 }
 
 .ts-add-message {
-  margin-top: 0px !important;
+  margin-top: 2px !important;
   margin-bottom: 0px !important;
 }
 
