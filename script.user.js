@@ -212,8 +212,11 @@ thread .ts-message .conversation-reply .media-left {
 span.status-icon {
     display: none !important;
 }
-//////////////////////////////////////////////////////////
 // Leave only the smallest indent for threads and replies
+// Note, I discovered this by accident, something is going on here that I don't
+// quite understand. If I put div.media.thread-body twice here, the style is actually
+// applied, otherwise, its not. Even updating comments in this file in 
+// different places seems to cause it.
 div.media.thread-body {
     margin-left: 1rem !important;
 }
@@ -223,10 +226,8 @@ div.media.message-body {
 div.thread-action-reply-message {
     padding-left: 1rem !important;
 }
-// Note, I discovered this by accident, something is going on here that I don't
-// quite understand. If I put div.media.thread-body twice here, the style is actually
-// applied, otherwise, its not.
 div.media.thread-body {
     margin-left: 1rem !important;
 }
+
 ` );
