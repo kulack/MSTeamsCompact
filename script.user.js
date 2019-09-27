@@ -74,6 +74,35 @@ a.channel-anchor {
 /* ====================================================== */
 .ts-title-bar .icons-patharrow {
   margin: 0 0 -.2rem -.2rem !important;
+  max-height: 1rem !important;
+  max-width: 1rem !important;
+}
+.ts-title-bar-team-header {
+  padding: 0px !important;
+  max-height: 1.5rem !important;
+}
+div.team-text-info {
+  max-height: 1.5rem !important;
+}
+.ts-tab-bar-wrapper {
+  margin: 0 !important;
+}
+.team-properties-container {
+  max-height: 1.5rem !important;
+}
+more-options {
+  max-height: 1.5rem !important;
+}
+button#settingsDropdown {
+  padding: 0px !important;
+}
+button#settingsDropdown > svg.app-svg {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+div.ts-title-bar-icon {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
 }
 
 // Expander in messages near collapse all/show replies from a message and title bar 
@@ -229,5 +258,4 @@ div.thread-action-reply-message {
 div.media.thread-body {
     margin-left: 1rem !important;
 }
-
 ` );
