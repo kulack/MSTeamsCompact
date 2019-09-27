@@ -159,6 +159,12 @@ message-list.chat-style .self .media-left ~ .ts-message-thread-body {
   padding-left: 1rem !important;
 }
 
+.ts-add-message {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+
 
 /*Team Message Tweaks*/
 /* ====================================================== */
