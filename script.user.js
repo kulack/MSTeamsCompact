@@ -61,12 +61,6 @@ a.channel-anchor {
 //  width: 2rem !important;
 //}
 
-// Exapander near collapse all/show replies from a message 
-svg.app-svg.icons-chevron {
-  height: 1rem !important;
-  width: 1rem !important;
-}
-
 // Message content
 .ts-reply-message {
   height: 1.5rem !important;
@@ -81,6 +75,8 @@ svg.app-svg.icons-chevron {
 .ts-title-bar .icons-patharrow {
   margin: 0 0 -.2rem -.2rem !important;
 }
+
+// Expander in messages near collapse all/show replies from a message and title bar 
 .app-svg, .ts-svg {
   height: 2.2rem !important;
   width: 2.2rem !important;
